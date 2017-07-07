@@ -3,4 +3,8 @@ color:black;
 background:mediumaquamarine;
 font-size: 20px;
 font-family:Arial;
+background: mediumaquamarine;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a {
+    background: mediumaquamarine;
 }

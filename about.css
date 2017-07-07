@@ -4,3 +4,6 @@ background:mediumaquamarine;
 font-size: 20px;
 font-family:Arial;
 }
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a {
+    background: mediumaquamarine;
+}
