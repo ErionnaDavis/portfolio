@@ -4,9 +4,6 @@ function contactSubmit() {
         alert("email must be filled out");
         return false;
     } else {
-        
-
+       alert('Thank You For Contacting Erionna Davis!!!'); 
     }
-    alert('Thank You For Contacting Erionna Davis!!!');
-    
 }
