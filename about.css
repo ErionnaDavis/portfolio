@@ -6,4 +6,7 @@ font-family:Arial;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a {
     background: mediumaquamarine;
+    content: {
+        padding:30px;
+    }
 }
