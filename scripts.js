@@ -11,5 +11,7 @@ function contactSubmit() {
         $(this).fadeOut();
         $("#success").fadeIn();
         //alert('Thank You For Contacting Erionna Davis!!!');
+          
+
     }
 }
