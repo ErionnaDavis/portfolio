@@ -1,21 +1,24 @@
-var projects=[
+var projects = [
     {
-        "name":"H2o Pub And Grill &#9774;"
-    },{
-        "name":"Try.Jquery &#9992;"
-    },{
+        "name": "H2o Pub And Grill &#9774;"
+    }, {
+        "name": "Try.Jquery &#9992;"
+    }, {
         "name": "Hospitality&Tourism &#9992;"
 
-    },{ "name": "Business Managment &#9743;"
+    }, {
+        "name": "Business Managment &#9743;"
 
-    },{ "name":"Computer Networking &#9773"
+    }, {
+        "name": "Computer Networking &#9773"
 
-    },{"name":"Electricity/Electronics &#10002"
+    }, {
+        "name": "Electricity/Electronics &#10002"
 
     }
 ];
 $(document).ready(function () {
-    $.each(projects, function(index, value){
+    $.each(projects, function (index, value) {
         console.log(value);
         $("#projects").append('<li>' + value.name + '</li>');
 
@@ -30,10 +33,10 @@ function contactSubmit() {
         return false;
     } else {
         $(this).fadeOut();
-        $ ("#success").fadeIn();
+        $("#success").fadeIn();
         //alert('Thank You For Contacting Erionna Davis!!!');
-        
-          
+
+
 
     }
 }
