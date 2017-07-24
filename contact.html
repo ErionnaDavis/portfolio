@@ -14,45 +14,10 @@
     <!-- Latest compiled and minified JavaScript -->
     <link rel="stylesheet" href="node_modules/animate.css/animate.css">
     <link rel="stylesheet" href="dist/styles/app.css" />
-    <script src="dist/scripts/main.js"></script>
 </head>
 
 <body>
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-                    aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Erionna Davis Portfolio</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="projects.html">Projects</a>
-                    </li>
-                    <li>
-                        <a href="about.html">About</a>
-                    </li>
-                    <li class="active">
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
+    <navigation></navigation>
     <div class="content">
         <h1 class="animated bounce">Erionna Davis</h1>
         <h2 class="animated bounce">Contact</h2>
@@ -61,22 +26,11 @@
         <li>&#9743HomePhone:(314)224-5530</li>
         <li>You can reach me at &#128241 (314)662-7276 8am-5pm</li>
         <li>You can reach me at &#9743 HomePhone (314)224-5530 or &#9993 Email:Erionnadavis15@gmail.com after 5pm</li>
-        <form name="contactForm" id="contactForm">
-
-            <div class="form-group">
-                <label for="email">Email address</label>
-                <input type="email" class="form-control" name="email" placeholder="Email" required </div <div class="form-group">
-                <label for="name">Name</label>
-                <input type="name" class="form-control" name="name" placeholder="Name" required </div>
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea type="email" class="form-control" name="message" placeholder="Message"></textarea required
-            </div>
-            <button type="submit" class="btn btn-default">Submit</button>
-        </form>
+        <contactForm></contactForm>
         <p class=" animated bounce">THANK YOU HAVE A GREAT DAY!!&#128077;</p>
         <div id="Success">
             <p class=" animated bounce">I will get back with you with in 24hrs in you do not reach me.
+    <script src="dist/scripts/main.js"></script>
 </body>
 
 
