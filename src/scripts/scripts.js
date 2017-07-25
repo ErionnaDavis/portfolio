@@ -23,7 +23,7 @@ $(document).ready(function () {
         $("#projects").append('<li>' + value.name + '</li>');
 
     });
-    $("#contactForm").on('submit', contactSubmit);
+    //$("#contactForm").on('submit', contactSubmit);
 });
 function contactSubmit() {
     event.preventDefault();
